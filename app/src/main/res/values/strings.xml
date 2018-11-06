@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">CRICModule Movil </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar o registrar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="action_register_new_server">Nuevo servidor</string>
+    <string name="error_invalid_email">Usuario invalido</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">Resumen de tareas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_settings_server">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Servidor</string>
+
+    <string name="pref_title_display_name">Servidor publico (IP)</string>
+    <string name="pref_default_display_name">192.168.0.16</string>
+    <!--Layers for puerto-->
+    <string name="pref_title_puerto">Puerto</string>
+    <string name="pref_default_puerto">84</string>
+
+    <string name="pref_title_button_save">Probar conexión</string>
+    <string name="pref_summary_button_save">Probar conexión con el servidor</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Otros</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="title_tarea_list">Tareas</string>
+    <string name="title_tarea_detail">Tarea Detail</string>
+
+    <!--etiquetas para contenido de lista tareas adapter-->
+    <string name="tarea_imgcon">Img tipo</string>
+    <string name="tarea_tipo">Folio Tarea</string>
+    <string name="tarea_folio">Folio</string>
+    <string name="tarea_fecha_asig">F. Asignacion</string>
+    <string name="tarea_fecha_prom">F. Promesa</string>
+    <string name="tarea_fecha_termino">F. Termino</string>
+    <string name="tarea_estatus">Estatus</string>
+    <string name="tarea_sucursall">Sucursal</string>
+    <string name="tarea_fecha_ini">Fecha Inicio</string>
+    <string name="tarea_fecha_fin">Fecha Fin</string>
+    <string name="tarea_fecha_canc">Fecha Cancelacion</string>
+    <string name="tarea_motivo_canc">Motivo cancelacion</string>
+    <string name="tarea_obs">Observaciones</string>
+    <string name="tarea_requiere_foto">Requiere evidencia(foto)</string>
+    <string name="tarea_info_captura">Información captura</string>
+    <string name="TareaTakePhoto">Tomar foto</string>
+
+
+    <!--etiquetas para docto adapter-->
+    <string name="tarea_doc_tipo">Tipo Tarea</string>
+    <string name="tarea_doc_nofac">Factura/Tarea</string>
+    <string name="tarea_doc_fecha">Fecha</string>
+    <string name="tarea_doc_estatus">Estatus</string>
+    <string name="tarea_doc_fch_entrega">Fch. Entrega</string>
+    <string name="tarea_doc_cliente">Cliente</string>
+    <string name="tarea_doc_obs">Observaciones</string>
+
+    <string name="tarea_pardoc_cve">Clave</string>
+    <string name="tarea_pardoc_descr">Descripción</string>
+    <string name="tarea_pardoc_linea">Linea</string>
+    <string name="tarea_pardoc_cantidad">Cant. S</string>
+    <string name="tarea_pardoc_cantidadEntregada">Cant. E.</string>
+    <string name="tarea_pardoc_cantidadSelect">Cant. Selec.</string>
+
+    <string name="tarea_doc_inicio">Inicio</string>
+    <string name="tarea_doc_fin">Fin</string>
+
+    <string name="tarea_cliente_cve">Cliente</string>
+    <string name="tarea_cliente_nom">Nombre</string>
+
+    <string name="action_filter_tareas">Filtro</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Sinc fragment -->
+    <string name="sinc_frag_dow">Descargar tareas</string>
+    <string name="sinc_frag_dowVu">Descargar vehiculos</string>
+    <string name="sinc_frag_clean">limpiar base datos</string>
+    <string name="sinc_frag_genrpt">Generar reporte tareas</string>
+    <string name="sinc_frag_fchrpt">Fecha reporte</string>
+
+    <string name="action_cancel_short">Cancelar</string>
+    <string name="action_accept_short">Aceptar</string>
+
+    <!-- para filtro tareas -->
+    <string name="prompt_tfecha_ini">Fecha inicial</string>
+    <string name="prompt_tfecha_fin">Fecha final</string>
+
+    <!--Leyendas controles empy-->
+    <string name="tareas_empty_historico">No existen tareas Terminadas o Canceladas</string>
+    <string name="tareas_empty_proceso">No existen tareas en Proceso</string>
+</resources>
